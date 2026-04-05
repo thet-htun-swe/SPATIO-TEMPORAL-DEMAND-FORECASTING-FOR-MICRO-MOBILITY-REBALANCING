@@ -1,4 +1,17 @@
 #ignore the raw-data folder
 data/citibike
 data/weather
-data/proceed
+
+# Data outputs
+data/proceed/
+
+# Training artifacts
+artifacts/model_training/
+
+# Jupyter / Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# VS Code local settings
+.vscode/
